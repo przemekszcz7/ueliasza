@@ -61,7 +61,7 @@ export function AboutSection() {
           <div className="lg:col-span-5">
             <div className="relative rounded-2xl overflow-hidden shadow-lg border border-[#E4DCC8] bg-[#FAF3EB] group">
               <img
-                src="https://i.postimg.cc/pLd9mR31/bacowka-2.jpg"
+                src="./images/photo-2.jpg"
                 alt="Klimat Bacówki u Eliasza w Koniakowie"
                 className="w-full h-80 sm:h-96 object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
