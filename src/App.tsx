@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { AboutSection } from './components/AboutSection';
@@ -7,6 +8,14 @@ import { Footer } from './components/Footer';
 import { CONTACT_INFO } from './data/bacowkaData';
 
 export default function App() {
+  useEffect(() => {
+    // Wymuszenie natychmiastowej wstępnej rezerwacji połączenia i pobrania najważniejszych zasobów
+    const linkPreconnect = document.createElement('link');
+    linkPreconnect.rel = 'preconnect';
+    linkPreconnect.href = 'https://i.postimg.cc';
+    document.head.appendChild(linkPreconnect);
+  }, []);
+
   return (
     <div className="min-h-screen w-full max-w-full overflow-x-hidden bg-[#F8F3ED] text-[#28261B] font-['Barlow'] selection:bg-[#E4DCC8] selection:text-[#28261B] relative">
       {/* Sticky Header */}
