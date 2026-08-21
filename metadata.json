@@ -1,0 +1,6 @@
+{
+  "name": "Bacówka u Eliasza",
+  "description": "Bacówka u Eliasza w Koniakowie — tradycja, pasja i serce od 2024 roku. Skontaktuj się przez WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
